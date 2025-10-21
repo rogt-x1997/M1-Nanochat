@@ -1,0 +1,18 @@
+{
+  "model_name": "nanochat",
+  "model_size": "d4",
+  "vocab_size": 10000,
+  "hidden_dim": 256,
+  "num_layers": 6,
+  "num_heads": 4,
+  "seq_length": 128,
+  "learning_rate": 0.0001,
+  "batch_size": 32,
+  "max_iters": 10000,
+  "eval_interval": 500,
+  "warmup_steps": 100,
+  "output_dir": "./outputs",
+  "checkpoints_dir": "./checkpoints",
+  "logs_dir": "./logs",
+  "created_at": "2025-10-19T22:17:38.428326"
+}
